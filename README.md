@@ -1,6 +1,5 @@
+This project implements the `Recruitdb` class in C++, which manages a collection of recruit data stored in a `std::vector`. The focus of the project is on efficient file handling, with methods to open, read, and close a text file that contains player information.
 
-This project involves two main classes in C++: `Recruit` and `Recruitdb`. These classes are designed to manage a collection of `Recruit` objects stored in a `std::vector`. The program includes methods to efficiently handle file operations, such as opening, reading, and closing a text file containing player data.
+The primary functionality revolves around providing search methods that allow users to query player attributes such as position, height, weight, and ranking. The system is designed to efficiently retrieve and display relevant player data based on user input.
 
-The primary functionality of this project is to provide efficient search methods that allow users to query specific player attributes (e.g., position, height, weight, and ranking). The goal is to create a system that quickly locates and outputs the relevant player information based on user-defined search criteria.
-
-By leveraging object-oriented design, the project streamlines the process of searching through large datasets, ensuring accurate and fast retrieval of recruit data.
+By leveraging object-oriented programming and file operations, this project enables quick and accurate searches through large datasets of player information, ensuring that the correct details are returned when specific attributes are requested.
